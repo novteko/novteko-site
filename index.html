@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Novteko Sistemas</title>
-    <meta name="description" content="Novteko Sistemas Ltda: empresa brasileira de software, criadora do Vortami." />
+    <meta name="description" content="Novteko Sistemas Ltda: empresa brasileira de software, criadora do Vortami e do NeoEstoque." />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2314213d'/%3E%3Cpath d='M9 23V9l14 14V9' stroke='%23f4f1ea' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -53,6 +53,7 @@
       .product img { width: 72px; height: 72px; border-radius: 16px; flex: none; }
       .product strong { display: block; font: 700 22px/1.2 'Inter Tight', system-ui, sans-serif; }
       .product span { color: var(--sub); }
+      .product + .product { margin-top: 12px; }
       .product:hover strong, .product:focus-visible strong { color: var(--accent); }
       dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 24px; margin: 0; }
       dt { color: var(--sub); }
@@ -91,6 +92,13 @@
             <span>Jogo de achar palavras em português e espanhol. Android, iOS e web.</span>
           </div>
         </a>
+        <a class="product" href="https://neoestoque.com.br">
+          <img src="neoestoque-icon.svg" alt="" width="72" height="72" />
+          <div>
+            <strong>NeoEstoque</strong>
+            <span>Contagem e gestão de estoque para lanchonetes, restaurantes e franquias.</span>
+          </div>
+        </a>
       </section>
 
       <section>
@@ -98,7 +106,7 @@
         <dl>
           <dt>Razão social</dt><dd>Novteko Sistemas Ltda</dd>
           <dt>CNPJ</dt><dd>69.811.486/0001-44</dd>
-          <dt>Contato</dt><dd><a href="mailto:contato@DOMINIO">contato@DOMINIO</a></dd>
+          <dt>Contato</dt><dd><a href="mailto:contato@novteko.com">contato@novteko.com</a></dd>
         </dl>
       </section>
     </main>
